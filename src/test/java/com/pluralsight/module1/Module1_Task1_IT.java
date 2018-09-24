@@ -51,7 +51,7 @@ public class Module1_Task1_IT {
       assertNotNull("An anchor with the text " + textStr + " does not exist. < > = ! ?", anchor);
 
       boolean found = findURLWithID(textStr.toLowerCase());
-      assertTrue("The " + textStr + " anchor's href does not contain the id.", found);
+      assertTrue("The " + textStr + " anchor's href does not contain the id. < > = ! ?", found);
 	  }
 
     private boolean findURLWithID(String urlStr) {
